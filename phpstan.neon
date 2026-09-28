@@ -1,0 +1,15 @@
+parameters:
+    level: 6
+    phpVersion: 80100
+
+    bootstrapFiles:
+        - tests/Support/phpstan-bootstrap.php
+
+    paths:
+        - src
+        - veekay-forms.php
+
+    excludePaths:
+        - vendor/*
+        - build/*
+
